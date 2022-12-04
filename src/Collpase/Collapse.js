@@ -1,11 +1,11 @@
 import { useState, useRef, Fragment } from "react";
-
 import "./Collapse.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
 const Collapse = ({ label, children }) => {
+
   const [open, setOpen] = useState(false);
 
   const contentRef = useRef();
