@@ -3,8 +3,9 @@ import "./App.css";
 // import Collapse from './Collpase/Collapse';
 // import Slideshow from './Slideshow/Slideshow';
 // import Carroussel from './Carroussel/Carroussel';
-import User from "./User/User";
-import AVATAR from "./images/avatarTest.jpg";
+// import User from "./User/User";
+// import AVATAR from "./images/avatarTest.jpg";
+import Rating from "./Rating/Rating";
 
 // const slides = [
 //   {url: 'https://via.placeholder.com/150/0000FF/808080'},
@@ -16,10 +17,7 @@ import AVATAR from "./images/avatarTest.jpg";
 function App() {
   return (
     <Fragment>
-      <User
-        avatarPicture={AVATAR}
-        userName="John Doe"
-      />
+     <Rating stars="3"/>
     </Fragment>
   );
 }

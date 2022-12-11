@@ -74,7 +74,7 @@ const Carroussel = ({ slides }) => {
           <div style={rightArrowStyle} onClick={goToNext}>
             <FontAwesomeIcon icon={faChevronRight} size="3x" />
           </div>
-          <img style={slideStyle} alt='logement'/>
+          <img style={slideStyle} alt=''/>
           <div style={numberSlide}>{currentIndex + 1}/{slides.length}</div>
         </div>
       </div>
